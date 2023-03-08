@@ -15,3 +15,8 @@ Run
 ```
 demo.py
 ```
+
+### From Python code
+```
+def plot_NN(NN_Frame, input_text=None, output_text=None, save_fig=True):
+```
