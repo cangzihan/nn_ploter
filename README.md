@@ -1,8 +1,8 @@
 # nn_ploter
-A Python demo for plotting neural networks.
+A Python script that provides a simple and efficient way to plot the architecture and parameters of neural network models using Matplotlib. With just a few lines of code, you can visualize the structure of your neural network and gain insights into its performance.
 
 ## Requirements
-- Environment: python3
+- Environment: Python3
 - Lib: [Matplotlib](https://matplotlib.org/)
 
 #### install matplotlib
@@ -18,5 +18,5 @@ demo.py
 
 ### From Python code
 ```
-def plot_NN(NN_Frame, input_text=None, output_text=None, save_fig=True):
+plot_NN(NN_Frame, input_text=None, output_text=None, save_fig=True)
 ```
